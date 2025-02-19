@@ -1,0 +1,11 @@
+Content 
+
+Hero Section 
+It will contain an introductory message and a picture of myself 
+About me Section 
+It will contain more information about myself as a user 
+Contact me Section 
+contain more information about how people can reach out to me 
+Footer Section
+It will contain a normal footer section with links to my socials
+

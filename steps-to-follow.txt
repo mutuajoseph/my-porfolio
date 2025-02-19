@@ -1,0 +1,4 @@
+1. Start by initialising a repo(repository) - git init 
+2. Take the changes and add them to a pipeline that is going to 
+act as out transporter of the codebase to the online github repo - git add 
+3. The git status command is used to check the current state of out pipeline
