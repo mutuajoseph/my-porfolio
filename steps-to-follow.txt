@@ -2,3 +2,6 @@
 2. Take the changes and add them to a pipeline that is going to 
 act as out transporter of the codebase to the online github repo - git add 
 3. The git status command is used to check the current state of out pipeline
+4. Commit the changes added to the pipeline using - git commit -m "sdvs" command
+5. Connect the local project to the online repo - git remote add origin git@github.com:mutuajoseph/my-porfolio.git
+6. push yout code to github using - git push -u origin master
