@@ -4,17 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio | Landing</title>
+    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
     <!-- HEADER SECTION - HERO SECTION -->
-    <header>
+    <header class="layout">
+      <div>
+        <img src="https://plus.unsplash.com/premium_photo-1740097670001-28363fa53ee3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjF8fHBvcnRyYWlzJTIwcGVyc29ufGVufDB8fDB8fHww" alt="Hero Image" />
+      </div>
       <div>
         <h1>Hi My name is Joseph</h1>
-        <p>
+        <p class="subheading">
           My name's Joseph Wambua. I craft user interfaces using modern frontend
           web technologies.
         </p>
-        <button>Lets work Together</button>
+        <button class="button">Lets work Together</button>
 
         <div>
           <p>
@@ -26,15 +30,12 @@
           <a href="http://">Download my resume (PDF 956kb)</a>
         </div>
       </div>
-      <div>
-        <img src="https://plus.unsplash.com/premium_photo-1671656349322-41de944d259b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cG9ydHJhaXR8ZW58MHx8MHx8fDA%3D" alt="Hero Image" />
-      </div>
     </header>
     <!-- ABOUT ME SECTION -->
-     <section>
+     <section class="layout">
         <div>
-            <h2>About Me</h2>
-            <p>
+            <h2 class="heading">About Me</h2>
+            <p class="subheading">
             I am a frontend developer with a passion for crafting user interfaces
             using modern web technologies. I am a self-taught developer with a
             background in computer science. I have been coding for the past 3
@@ -44,28 +45,31 @@
         </div>
      </section>
     <!-- SKILLS SECTION -->
-    <section>
+    <section class="layout">
         <div>
-            <h2>Skills</h2>
+            <h2 class="heading">Skills</h2>
             <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>React</li>
-                <li>Vue</li>
-                <li>Node</li>
-                <li>Express</li>
-                <li>MongoDB</li>
+                <li class="subheading">HTML</li>
+                <li class="subheading">CSS</li>
+                <li class="subheading">JavaScript</li>
+                <li class="subheading">React</li>
+                <li class="subheading">Vue</li>
+                <li class="subheading">Node</li>
+                <li class="subheading">Express</li>
+                <li class="subheading">MongoDB</li>
             </ul>
         </div>
     </section>
     <!-- FOOTER SECTION -->
-    <footer>
+    <footer class="layout">
         <div>
-            <h2>Contact</h2>
-            <p>
-                You can reach me via email at <a href="mailto:">wambua@gmail.com</a>
-            </p>
+            <h2 class="heading">Contact</h2>
+
+            <div class="contact-form">
+              <input type="text" placeholder="Enter your email address" />
+              <button class="contact-form-button">Subscribe</button>
+            </div>
+            
         </div>
     </footer>
   </body>
